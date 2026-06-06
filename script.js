@@ -1,5 +1,5 @@
 // Typewriter Effect
-const texts = ["Web Developer", "UI/UX Designer", "Creative Thinker"];
+const texts = ["Data Scientist","Machine Learning Engineer","Tech Enthusiast"];
 let count = 0;
 let index = 0;
 let currentText = "";

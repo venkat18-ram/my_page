@@ -19,6 +19,7 @@ body {
     color: var(--text-main);
     overflow-x: hidden;
     
+    
 }
 /* Styling for the icon next to your name */
 .name-icon, .name-badge-icon {
@@ -923,3 +924,5 @@ body {
 .resume-btn:hover i {
     transform: translateY(2px); /* Makes the download icon look like it's pointing down */
 }
+
+
