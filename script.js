@@ -1,5 +1,5 @@
 // Typewriter Effect
-const texts = ["Data Scientist","Machine Learning Engineer","Tech Enthusiast"];
+const texts = ["Data Scientist","AI Enthusiast", "Machine Learning Engineer", "Tech Innovator"];
 let count = 0;
 let index = 0;
 let currentText = "";
@@ -78,50 +78,3 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-window.addEventListener('scroll', () => {
-
-    const scrollTop =
-        document.documentElement.scrollTop;
-
-    const scrollHeight =
-        document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
-
-    const progress =
-        (scrollTop / scrollHeight) * 100;
-
-    document.getElementById('progress-bar').style.width =
-        progress + '%';
-});
-
-const topBtn = document.getElementById("topBtn");
-
-window.addEventListener("scroll", () => {
-
-    if(window.scrollY > 300){
-        topBtn.style.display = "block";
-    }else{
-        topBtn.style.display = "none";
-    }
-
-});
-
-topBtn.addEventListener("click", () => {
-
-    window.scrollTo({
-        top:0,
-        behavior:"smooth"
-    });
-
-});
-
-const glow =
-document.querySelector(".cursor-glow");
-
-document.addEventListener("mousemove",(e)=>{
-
-glow.style.left=e.pageX+"px";
-glow.style.top=e.pageY+"px";
-
-});
